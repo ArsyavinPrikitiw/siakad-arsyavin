@@ -162,45 +162,24 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Halaman Siswa</h1>
-
-            <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <a href="tambahsiswa.php" class="btn btn-primary">Tambah</a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>Nama</th>
-                                            <th>NISN</th>
-                                            <th>Email</th>
-                                            <th>Jenis Kelamin</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Udinmadindindun Samsudin Dirindindin</td>
-                                            <td>11223344556677</td>
-                                            <td>Udinsemlikitiw@gmail.com</td>
-                                            <td>imroatus</td>
-                                            <td>
-                                                <a href="editsiswa.php" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>
-                                                <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                                            </td>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                <!-- /.container-fluid -->
-
+                    <h1 class="h3 mb-4 text-gray-800">Edit Data Siswa</h1>
+                    <form action="">
+                        <label for="nama" class="form-label">Nama Siswa</label>
+                        <input type="text" id="nama" class="form-control">
+                        <label for="nisn" class="form-label">NISN</label>
+                        <input type="text" id="nisn" class="form-control">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control">
+                        <br>
+                        <select class="form-control" aria-label="Default select example">
+                        <option value="1">Laki-Laki</option>
+                        <option value="2">Perempuan</option>
+                        <option value="3">Lainnya</option>
+                        </select>
+                        <br>
+                        <br>
+                        <a class="btn btn-primary">Simpan</a>
+                    </form>
             </div>
             <!-- End of Main Content -->
 
@@ -256,5 +235,4 @@
     <script src="../js/sb-admin-2.min.js"></script>
 
 </body>
-
 </html>
