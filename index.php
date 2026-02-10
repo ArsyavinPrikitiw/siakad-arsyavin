@@ -35,7 +35,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Siakad | SMKN 1 Ciomas</div>
+                <div class="sidebar-brand-text mx-3">SMKN 1 Ciomas</div>
             </a>
 
             <!-- Divider -->

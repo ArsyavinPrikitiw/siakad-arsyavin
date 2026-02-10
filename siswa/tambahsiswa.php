@@ -171,7 +171,9 @@
                         <label for="email" class="form-label">Email</label>
                         <input type="email" id="email" class="form-control">
                         <br>
+                        <label for="select">Jenis Kelamin</label>
                         <select class="form-control" aria-label="Default select example">
+                        <option selected> </option>
                         <option value="1">Laki-Laki</option>
                         <option value="2">Perempuan</option>
                         <option value="3">Lainnya</option>
